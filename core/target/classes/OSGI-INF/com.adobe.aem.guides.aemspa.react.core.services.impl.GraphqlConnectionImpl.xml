@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.adobe.aem.guides.aemspa.react.core.services.impl.GraphqlConnectionImpl">
+  <service>
+    <provide interface="com.adobe.aem.guides.aemspa.react.core.services.GraphqlConnection"/>
+  </service>
+  <implementation class="com.adobe.aem.guides.aemspa.react.core.services.impl.GraphqlConnectionImpl"/>
+</scr:component>

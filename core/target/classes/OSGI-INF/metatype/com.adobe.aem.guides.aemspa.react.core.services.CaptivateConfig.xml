@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.adobe.aem.guides.aemspa.react.core.services.CaptivateConfig">
+  <OCD id="com.adobe.aem.guides.aemspa.react.core.services.CaptivateConfig" name="Captivate Integration Service Configuration" description="Service Configuration">
+    <AD id="client.id" type="String" name="Captivate Prime Client ID" description="Captivate Prime Client ID"/>
+    <AD id="client.secret" type="String" name="Captivate Prime Client Secret" description="Captivate Prime Client Secret"/>
+    <AD id="client.code" type="String" name="Captivate Prime Auth Code" description="Captivate Prime Auth Code"/>
+    <AD id="tokenEndPoints" type="String" name="Captivate Prime Token Endpoint" description="Captivate Prime Token Endpoint"/>
+    <AD id="alphaVantageAPIKey" type="String" name="API Key for Alpha Vantage" description="Captivate Prime Token Endpoint"/>
+    <AD id="alphaVantageEndPoint" type="String" name="Endpoint URL for Alpha Vantage" description="Captivate Prime Token Endpoint"/>
+  </OCD>
+  <Designate pid="com.adobe.aem.guides.aemspa.react.core.services.impl.CaptivateConfigImpl">
+    <Object ocdref="com.adobe.aem.guides.aemspa.react.core.services.CaptivateConfig"/>
+  </Designate>
+</metatype:MetaData>

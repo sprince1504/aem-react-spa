@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: AEM SPA React - UI apps
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: application
+Content-Package-Id: com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa
+ .react.ui.apps:1.0.0-SNAPSHOT
+Content-Package-Description: UI apps package for AEM SPA React
+Content-Package-Roots: /apps/aem-spa-react/clientlibs,/apps/aem-spa-reac
+ t/components,/apps/aem-spa-react/i18n
+Import-Package: com.adobe.aem.guides.aemspa.react.core.models;version="[
+ 1.0.0,2.0.0)",com.adobe.aem.spa.project.core.models;version="[1.1.0,2.0
+ .0)",org.apache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
+

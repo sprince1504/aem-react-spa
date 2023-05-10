@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.adobe.aem.guides.aemspa.react.core.services.FactoryConfigOCD">
+  <OCD id="com.adobe.aem.guides.aemspa.react.core.services.FactoryConfigOCD" name="Factory Configuration Example" description="Factory Configuration">
+    <AD id="apiEndPoint" type="String" name="Endpoint to connect to API" description="EndPoint Connection"/>
+    <AD id="siteIdentifier" type="String" name="Site Identifier" description="Identify the site"/>
+  </OCD>
+  <Designate factoryPid="com.adobe.aem.guides.aemspa.react.core.services.impl.FactoryConfigImpl">
+    <Object ocdref="com.adobe.aem.guides.aemspa.react.core.services.FactoryConfigOCD"/>
+  </Designate>
+</metatype:MetaData>

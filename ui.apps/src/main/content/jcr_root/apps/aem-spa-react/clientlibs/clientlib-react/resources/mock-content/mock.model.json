@@ -1,0 +1,3266 @@
+{
+  "language":"en",
+  "designPath":"/libs/settings/wcm/designs/default",
+  "title":"en",
+  "cssClassNames":"spa page basicpage",
+  "brandSlug":"",
+  "templateName":"spa-app-template",
+  "componentsResourceTypes":[
+    "wcm/foundation/components/responsivegrid",
+    "nt:unstructured",
+    "aem-spa-react/components/spa"
+  ],
+  ":path":"/content/aem-spa-react/us/en",
+  ":items":{
+
+  },
+  ":itemsOrder":[
+
+  ],
+  ":type":"aem-spa-react/components/spa",
+  ":children":{
+    "/content/aem-spa-react/us/en/home":{
+      "language":"en",
+      "lastModifiedDate":1538639429650,
+      "designPath":"/libs/settings/wcm/designs/default",
+      "title":"AEM SPA React Home Page",
+      "cssClassNames":"spa page basicpage",
+      "brandSlug":"",
+      "templateName":"spa-page-template",
+      "componentsResourceTypes":[
+        "aem-spa-react/components/search",
+        "aem-spa-react/components/page",
+        "aem-spa-react/components/experiencefragment",
+        "aem-spa-react/components/navigation",
+        "nt:unstructured",
+        "aem-spa-react/components/container",
+        "aem-spa-react/components/languagenavigation",
+        "nt:file",
+        "nt:folder",
+        "aem-spa-react/components/xfpage",
+        "aem-spa-react/components/text",
+        "wcm/foundation/components/responsivegrid",
+        "nt:resource",
+        "aem-spa-react/components/separator"
+      ],
+      ":path":"/content/aem-spa-react/us/en/home",
+      ":items":{
+        "root":{
+          "columnCount":12,
+          "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+          "columnClassNames":{
+            "experiencefragment-header":"aem-GridColumn aem-GridColumn--default--12",
+            "responsivegrid":"aem-GridColumn aem-GridColumn--default--12",
+            "experiencefragment-footer":"aem-GridColumn aem-GridColumn--default--12"
+          },
+          "allowedComponents":{
+            "applicable":false,
+            "components":[
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/spa-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                "title":"Layout Container"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/spa-page-template/structure/jcr:content/root/aem-spa-react/components/text",
+                "title":"Text"
+              }
+            ]
+          },
+          ":items":{
+            "experiencefragment-header":{
+              "id":"experiencefragment-89f5b5754d",
+              "configured":true,
+              "localizedFragmentVariationPath":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content",
+              "dataLayer":{
+                "experiencefragment-89f5b5754d":{
+                  "@type":"aem-spa-react/components/experiencefragment"
+                }
+              },
+              ":items":{
+                "root":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+                    "navigation":"aem-GridColumn aem-GridColumn--default--12",
+                    "search":"aem-GridColumn aem-GridColumn--default--12",
+                    "languagenavigation":"aem-GridColumn aem-GridColumn--default--12",
+                    "logo":"aem-GridColumn aem-GridColumn--default--12"
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/accordion",
+                        "title":"Accordion"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/breadcrumb",
+                        "title":"Breadcrumb"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/button",
+                        "title":"Button"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/carousel",
+                        "title":"Carousel"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/container",
+                        "title":"Container"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/contentfragment",
+                        "title":"Content Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/contentfragmentlist",
+                        "title":"Content Fragment List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/download",
+                        "title":"Download"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/embed",
+                        "title":"Embed"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/experiencefragment",
+                        "title":"Experience Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/helloworld",
+                        "title":"Hello World Component"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/image",
+                        "title":"Image"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/list",
+                        "title":"List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/pdfviewer",
+                        "title":"PDF Viewer"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/progressbar",
+                        "title":"Progress Bar"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/separator",
+                        "title":"Separator"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/sharing",
+                        "title":"Social Media Sharing"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/tabs",
+                        "title":"Tabs"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/teaser",
+                        "title":"Teaser"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/text",
+                        "title":"Text"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/title",
+                        "title":"Title"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/form/container",
+                        "title":"Core Form Container"
+                      }
+                    ]
+                  },
+                  ":items":{
+                    "navigation":{
+                      "id":"navigation-e7b02935b8",
+                      "items":[
+                        {
+                          "id":"navigation-e7b02935b8-item-63c868f264",
+                          "path":"/content/aem-spa-react/us/en",
+                          "children":[
+                            {
+                              "id":"navigation-e7b02935b8-item-e15aa12207",
+                              "path":"/content/aem-spa-react/us/en/home",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "lastModified":1538639429650,
+                              "url":"/content/aem-spa-react/us/en/home.html",
+                              "title":"AEM SPA React Home Page",
+                              "dataLayer":{
+                                "navigation-e7b02935b8-item-e15aa12207":{
+                                  "@type":"aem-spa-react/components/navigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"AEM SPA React Home Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/home.html"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/page"
+                            },
+                            {
+                              "id":"navigation-e7b02935b8-item-5b1b1966d2",
+                              "path":"/content/aem-spa-react/us/en/products",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "url":"/content/aem-spa-react/us/en/products.html",
+                              "title":"Catalog Page",
+                              "dataLayer":{
+                                "navigation-e7b02935b8-item-5b1b1966d2":{
+                                  "@type":"aem-spa-react/components/navigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"Catalog Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/products.html"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/commerce/catalogpage"
+                            }
+                          ],
+                          "level":0,
+                          "active":true,
+                          "current":false,
+                          "url":"/content/aem-spa-react/us/en.html",
+                          "title":"AEM SPA React",
+                          "dataLayer":{
+                            "navigation-e7b02935b8-item-63c868f264":{
+                              "@type":"aem-spa-react/components/navigation/item",
+                              "repo:modifyDate":"2023-05-07T04:15:10Z",
+                              "dc:title":"AEM SPA React",
+                              "xdm:linkURL":"/content/aem-spa-react/us/en.html"
+                            }
+                          },
+                          ":type":"aem-spa-react/components/spa"
+                        }
+                      ],
+                      ":type":"aem-spa-react/components/navigation",
+                      "dataLayer":{
+                        "navigation-e7b02935b8":{
+                          "@type":"aem-spa-react/components/navigation"
+                        }
+                      }
+                    },
+                    "languagenavigation":{
+                      "id":"languagenavigation-05fee68328",
+                      "items":[
+                        {
+                          "id":"languagenavigation-05fee68328-item-a58592f7bb",
+                          "path":"/content/aem-spa-react/us/en/search",
+                          "children":[
+                            {
+                              "id":"languagenavigation-05fee68328-item-e15aa12207",
+                              "path":"/content/aem-spa-react/us/en/home",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "title":"AEM SPA React Home Page",
+                              "locale":"en",
+                              "country":"",
+                              "language":"en",
+                              "lastModified":1538639429650,
+                              "url":"/content/aem-spa-react/us/en/home.html",
+                              "dataLayer":{
+                                "languagenavigation-05fee68328-item-e15aa12207":{
+                                  "@type":"aem-spa-react/components/languagenavigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"AEM SPA React Home Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/home.html",
+                                  "xdm:language":"en"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/page"
+                            },
+                            {
+                              "id":"languagenavigation-05fee68328-item-5b1b1966d2",
+                              "path":"/content/aem-spa-react/us/en/products",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "title":"Catalog Page",
+                              "locale":"en",
+                              "country":"",
+                              "language":"en",
+                              "url":"/content/aem-spa-react/us/en/products.html",
+                              "dataLayer":{
+                                "languagenavigation-05fee68328-item-5b1b1966d2":{
+                                  "@type":"aem-spa-react/components/languagenavigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"Catalog Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/products.html",
+                                  "xdm:language":"en"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/commerce/catalogpage"
+                            }
+                          ],
+                          "level":0,
+                          "active":true,
+                          "current":true,
+                          "title":"en",
+                          "locale":"en",
+                          "country":"",
+                          "language":"en",
+                          "url":"/content/aem-spa-react/us/en/search.html",
+                          "dataLayer":{
+                            "languagenavigation-05fee68328-item-a58592f7bb":{
+                              "@type":"aem-spa-react/components/languagenavigation/item",
+                              "repo:modifyDate":"2023-05-07T04:15:10Z",
+                              "dc:title":"en",
+                              "xdm:linkURL":"/content/aem-spa-react/us/en/search.html",
+                              "xdm:language":"en"
+                            }
+                          },
+                          ":type":"aem-spa-react/components/page"
+                        }
+                      ],
+                      ":type":"aem-spa-react/components/languagenavigation",
+                      "dataLayer":{
+                        "languagenavigation-05fee68328":{
+                          "@type":"aem-spa-react/components/languagenavigation"
+                        }
+                      }
+                    },
+                    "search":{
+                      "id":"search-d3d1ce64fe",
+                      "relativePath":"/jcr:content/root/search",
+                      "resultsSize":10,
+                      "searchTermMinimumLength":3,
+                      "searchRootPagePath":"/content/aem-spa-react/us",
+                      ":type":"aem-spa-react/components/search",
+                      "dataLayer":{
+                        "search-d3d1ce64fe":{
+                          "@type":"aem-spa-react/components/search"
+                        }
+                      }
+                    },
+                    "logo":{
+                      ":type":"nt:folder"
+                    }
+                  },
+                  ":itemsOrder":[
+                    "navigation",
+                    "languagenavigation",
+                    "search",
+                    "logo"
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              "classNames":"aem-xf",
+              ":itemsOrder":[
+                "root"
+              ],
+              ":type":"aem-spa-react/components/experiencefragment"
+            },
+            "responsivegrid":{
+              "columnCount":12,
+              "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+              "columnClassNames":{
+                "text":"aem-GridColumn aem-GridColumn--default--12"
+              },
+              "allowedComponents":{
+                "applicable":false,
+                "components":[
+                  {
+                    "path":"/content/aem-spa-react/us/en/home/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                    "title":"Layout Container"
+                  },
+                  {
+                    "path":"/content/aem-spa-react/us/en/home/jcr:content/root/responsivegrid/aem-spa-react/components/text",
+                    "title":"Text"
+                  }
+                ]
+              },
+              ":items":{
+                "text":{
+                  "id":"text-0cdbacc97a",
+                  "text":"\u003Cp\u003EHello World Prince!\u003C/p\u003E",
+                  "richText":true,
+                  ":type":"aem-spa-react/components/text",
+                  "dataLayer":{
+                    "text-0cdbacc97a":{
+                      "@type":"aem-spa-react/components/text",
+                      "xdm:text":"\u003Cp\u003EHello World!\u003C/p\u003E"
+                    }
+                  }
+                }
+              },
+              ":itemsOrder":[
+                "text"
+              ],
+              ":type":"wcm/foundation/components/responsivegrid"
+            },
+            "experiencefragment-footer":{
+              "id":"experiencefragment-c5eb16202b",
+              "configured":true,
+              "localizedFragmentVariationPath":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content",
+              "dataLayer":{
+                "experiencefragment-c5eb16202b":{
+                  "@type":"aem-spa-react/components/experiencefragment"
+                }
+              },
+              ":items":{
+                "root":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+                    "text":"aem-GridColumn aem-GridColumn--default--12",
+                    "separator":"aem-GridColumn aem-GridColumn--default--12"
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/accordion",
+                        "title":"Accordion"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/breadcrumb",
+                        "title":"Breadcrumb"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/button",
+                        "title":"Button"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/carousel",
+                        "title":"Carousel"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/container",
+                        "title":"Container"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/contentfragment",
+                        "title":"Content Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/contentfragmentlist",
+                        "title":"Content Fragment List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/download",
+                        "title":"Download"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/embed",
+                        "title":"Embed"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/experiencefragment",
+                        "title":"Experience Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/helloworld",
+                        "title":"Hello World Component"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/image",
+                        "title":"Image"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/list",
+                        "title":"List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/pdfviewer",
+                        "title":"PDF Viewer"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/progressbar",
+                        "title":"Progress Bar"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/separator",
+                        "title":"Separator"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/sharing",
+                        "title":"Social Media Sharing"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/tabs",
+                        "title":"Tabs"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/teaser",
+                        "title":"Teaser"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/text",
+                        "title":"Text"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/title",
+                        "title":"Title"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/form/container",
+                        "title":"Core Form Container"
+                      }
+                    ]
+                  },
+                  ":items":{
+                    "separator":{
+                      ":type":"aem-spa-react/components/separator"
+                    },
+                    "text":{
+                      "id":"text-49ea5c1e60",
+                      "text":"\u003Cp\u003ECopyright 2023, AEM SPA React.&nbsp;All rights reserved.\u003C/p\u003E\r\n\u003Cp\u003E345 Park Avenue,&nbsp;San Jose, CA 95110-2704, USA\u003C/p\u003E\r\n",
+                      "richText":true,
+                      ":type":"aem-spa-react/components/text",
+                      "dataLayer":{
+                        "text-49ea5c1e60":{
+                          "@type":"aem-spa-react/components/text",
+                          "xdm:text":"\u003Cp\u003ECopyright 2023, AEM SPA React.&nbsp;All rights reserved.\u003C/p\u003E\r\n\u003Cp\u003E345 Park Avenue,&nbsp;San Jose, CA 95110-2704, USA\u003C/p\u003E\r\n"
+                        }
+                      }
+                    }
+                  },
+                  ":itemsOrder":[
+                    "separator",
+                    "text"
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              "classNames":"aem-xf",
+              ":itemsOrder":[
+                "root"
+              ],
+              ":type":"aem-spa-react/components/experiencefragment"
+            }
+          },
+          ":itemsOrder":[
+            "experiencefragment-header",
+            "responsivegrid",
+            "experiencefragment-footer"
+          ],
+          ":type":"wcm/foundation/components/responsivegrid"
+        }
+      },
+      ":itemsOrder":[
+        "root"
+      ],
+      ":type":"aem-spa-react/components/page",
+      ":hierarchyType":"page"
+    },
+    "/content/aem-spa-react/us/en/my-account":{
+      "language":"en",
+      "designPath":"/libs/settings/wcm/designs/default",
+      "title":"My Account",
+      "cssClassNames":"spa page basicpage",
+      "brandSlug":"",
+      "templateName":"page-content",
+      "componentsResourceTypes":[
+        "aem-spa-react/components/page",
+        "aem-spa-react/components/container",
+        "aem-spa-react/components/title"
+      ],
+      ":path":"/content/aem-spa-react/us/en/my-account",
+      ":items":{
+        "root":{
+          "columnCount":12,
+          "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+          "columnClassNames":{
+            "container":"aem-GridColumn aem-GridColumn--default--12"
+          },
+          "allowedComponents":{
+            "applicable":false,
+            "components":[
+
+            ]
+          },
+          ":items":{
+            "container":{
+              "columnCount":12,
+              "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+              "columnClassNames":{
+                "container":"aem-GridColumn aem-GridColumn--default--12",
+                "title":"aem-GridColumn aem-GridColumn--default--12"
+              },
+              "allowedComponents":{
+                "applicable":false,
+                "components":[
+
+                ]
+              },
+              ":items":{
+                "title":{
+                  "id":"title-f8cc75362d",
+                  "linkDisabled":false,
+                  "text":"Search Results",
+                  ":type":"aem-spa-react/components/title",
+                  "dataLayer":{
+                    "title-f8cc75362d":{
+                      "@type":"aem-spa-react/components/title",
+                      "dc:title":"Search Results"
+                    }
+                  }
+                },
+                "container":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+
+                    ]
+                  },
+                  ":items":{
+
+                  },
+                  ":itemsOrder":[
+
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              ":itemsOrder":[
+                "title",
+                "container"
+              ],
+              ":type":"aem-spa-react/components/container"
+            }
+          },
+          ":itemsOrder":[
+            "container"
+          ],
+          ":type":"aem-spa-react/components/container"
+        }
+      },
+      ":itemsOrder":[
+        "root"
+      ],
+      ":type":"aem-spa-react/components/page",
+      ":hierarchyType":"page"
+    },
+    "/content/aem-spa-react/us/en/my-account/address-book":{
+      "language":"en",
+      "designPath":"/libs/settings/wcm/designs/default",
+      "title":"Address Book",
+      "cssClassNames":"spa page basicpage",
+      "brandSlug":"",
+      "templateName":"page-content",
+      "componentsResourceTypes":[
+        "aem-spa-react/components/page",
+        "aem-spa-react/components/commerce/addressbook",
+        "aem-spa-react/components/container",
+        "aem-spa-react/components/title"
+      ],
+      ":path":"/content/aem-spa-react/us/en/my-account/address-book",
+      ":items":{
+        "root":{
+          "columnCount":12,
+          "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+          "columnClassNames":{
+            "container":"aem-GridColumn aem-GridColumn--default--12"
+          },
+          "allowedComponents":{
+            "applicable":false,
+            "components":[
+
+            ]
+          },
+          ":items":{
+            "container":{
+              "columnCount":12,
+              "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+              "columnClassNames":{
+                "container":"aem-GridColumn aem-GridColumn--default--12",
+                "title":"aem-GridColumn aem-GridColumn--default--12"
+              },
+              "allowedComponents":{
+                "applicable":false,
+                "components":[
+
+                ]
+              },
+              ":items":{
+                "title":{
+                  "id":"title-bd4e0d6d08",
+                  "linkDisabled":false,
+                  "text":"Search Results",
+                  ":type":"aem-spa-react/components/title",
+                  "dataLayer":{
+                    "title-bd4e0d6d08":{
+                      "@type":"aem-spa-react/components/title",
+                      "dc:title":"Search Results"
+                    }
+                  }
+                },
+                "container":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+                    "addressbook":"aem-GridColumn aem-GridColumn--default--12"
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+
+                    ]
+                  },
+                  ":items":{
+                    "addressbook":{
+                      ":type":"aem-spa-react/components/commerce/addressbook"
+                    }
+                  },
+                  ":itemsOrder":[
+                    "addressbook"
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              ":itemsOrder":[
+                "title",
+                "container"
+              ],
+              ":type":"aem-spa-react/components/container"
+            }
+          },
+          ":itemsOrder":[
+            "container"
+          ],
+          ":type":"aem-spa-react/components/container"
+        }
+      },
+      ":itemsOrder":[
+        "root"
+      ],
+      ":type":"aem-spa-react/components/page",
+      ":hierarchyType":"page"
+    },
+    "/content/aem-spa-react/us/en/my-account/account-details":{
+      "language":"en",
+      "designPath":"/libs/settings/wcm/designs/default",
+      "title":"My Account Details",
+      "cssClassNames":"spa page basicpage",
+      "brandSlug":"",
+      "templateName":"page-content",
+      "componentsResourceTypes":[
+        "aem-spa-react/components/page",
+        "aem-spa-react/components/container",
+        "aem-spa-react/components/title",
+        "aem-spa-react/components/commerce/accountdetails"
+      ],
+      ":path":"/content/aem-spa-react/us/en/my-account/account-details",
+      ":items":{
+        "root":{
+          "columnCount":12,
+          "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+          "columnClassNames":{
+            "container":"aem-GridColumn aem-GridColumn--default--12"
+          },
+          "allowedComponents":{
+            "applicable":false,
+            "components":[
+
+            ]
+          },
+          ":items":{
+            "container":{
+              "columnCount":12,
+              "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+              "columnClassNames":{
+                "container":"aem-GridColumn aem-GridColumn--default--12",
+                "title":"aem-GridColumn aem-GridColumn--default--12"
+              },
+              "allowedComponents":{
+                "applicable":false,
+                "components":[
+
+                ]
+              },
+              ":items":{
+                "title":{
+                  "id":"title-1f9f4a79d3",
+                  "linkDisabled":false,
+                  "text":"Search Results",
+                  ":type":"aem-spa-react/components/title",
+                  "dataLayer":{
+                    "title-1f9f4a79d3":{
+                      "@type":"aem-spa-react/components/title",
+                      "dc:title":"Search Results"
+                    }
+                  }
+                },
+                "container":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+                    "accountdetails":"aem-GridColumn aem-GridColumn--default--12"
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+
+                    ]
+                  },
+                  ":items":{
+                    "accountdetails":{
+                      ":type":"aem-spa-react/components/commerce/accountdetails"
+                    }
+                  },
+                  ":itemsOrder":[
+                    "accountdetails"
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              ":itemsOrder":[
+                "title",
+                "container"
+              ],
+              ":type":"aem-spa-react/components/container"
+            }
+          },
+          ":itemsOrder":[
+            "container"
+          ],
+          ":type":"aem-spa-react/components/container"
+        }
+      },
+      ":itemsOrder":[
+        "root"
+      ],
+      ":type":"aem-spa-react/components/page",
+      ":hierarchyType":"page"
+    },
+    "/content/aem-spa-react/us/en/products":{
+      "language":"en",
+      "designPath":"/libs/settings/wcm/designs/default",
+      "title":"Catalog Page",
+      "cssClassNames":"spa page basicpage",
+      "brandSlug":"",
+      "templateName":"catalog-page",
+      "componentsResourceTypes":[
+        "aem-spa-react/components/search",
+        "aem-spa-react/components/commerce/breadcrumb",
+        "aem-spa-react/components/commerce/catalogpage",
+        "aem-spa-react/components/experiencefragment",
+        "aem-spa-react/components/navigation",
+        "aem-spa-react/components/container",
+        "aem-spa-react/components/languagenavigation",
+        "nt:unstructured",
+        "nt:file",
+        "nt:folder",
+        "aem-spa-react/components/xfpage",
+        "aem-spa-react/components/text",
+        "nt:resource",
+        "aem-spa-react/components/separator"
+      ],
+      ":path":"/content/aem-spa-react/us/en/products",
+      ":items":{
+        "root":{
+          "columnCount":12,
+          "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+          "columnClassNames":{
+            "container":"aem-GridColumn aem-GridColumn--default--12",
+            "footer":"aem-GridColumn aem-GridColumn--default--12",
+            "experiencefragment-header":"aem-GridColumn aem-GridColumn--default--12"
+          },
+          "allowedComponents":{
+            "applicable":false,
+            "components":[
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/accordion",
+                "title":"Accordion"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/breadcrumb",
+                "title":"Breadcrumb"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/button",
+                "title":"Button"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/carousel",
+                "title":"Carousel"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/container",
+                "title":"Container"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/contentfragment",
+                "title":"Content Fragment"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/contentfragmentlist",
+                "title":"Content Fragment List"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/download",
+                "title":"Download"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/embed",
+                "title":"Embed"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/experiencefragment",
+                "title":"Experience Fragment"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/helloworld",
+                "title":"Hello World Component"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/image",
+                "title":"Image"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/list",
+                "title":"List"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/pdfviewer",
+                "title":"PDF Viewer"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/progressbar",
+                "title":"Progress Bar"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/separator",
+                "title":"Separator"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/sharing",
+                "title":"Social Media Sharing"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/tabs",
+                "title":"Tabs"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/teaser",
+                "title":"Teaser"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/text",
+                "title":"Text"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/title",
+                "title":"Title"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/form/container",
+                "title":"Core Form Container"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/commerce/breadcrumb",
+                "title":"Commerce Breadcrumb"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/languagenavigation",
+                "title":"Language Navigation"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/navigation",
+                "title":"Navigation"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/catalog-page/structure/jcr:content/root/aem-spa-react/components/search",
+                "title":"Quick Search"
+              }
+            ]
+          },
+          ":items":{
+            "experiencefragment-header":{
+              "id":"experiencefragment-5185879df4",
+              "configured":true,
+              "localizedFragmentVariationPath":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content",
+              "dataLayer":{
+                "experiencefragment-5185879df4":{
+                  "@type":"aem-spa-react/components/experiencefragment"
+                }
+              },
+              ":items":{
+                "root":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+                    "navigation":"aem-GridColumn aem-GridColumn--default--12",
+                    "search":"aem-GridColumn aem-GridColumn--default--12",
+                    "languagenavigation":"aem-GridColumn aem-GridColumn--default--12",
+                    "logo":"aem-GridColumn aem-GridColumn--default--12"
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/accordion",
+                        "title":"Accordion"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/breadcrumb",
+                        "title":"Breadcrumb"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/button",
+                        "title":"Button"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/carousel",
+                        "title":"Carousel"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/container",
+                        "title":"Container"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/contentfragment",
+                        "title":"Content Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/contentfragmentlist",
+                        "title":"Content Fragment List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/download",
+                        "title":"Download"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/embed",
+                        "title":"Embed"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/experiencefragment",
+                        "title":"Experience Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/helloworld",
+                        "title":"Hello World Component"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/image",
+                        "title":"Image"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/list",
+                        "title":"List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/pdfviewer",
+                        "title":"PDF Viewer"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/progressbar",
+                        "title":"Progress Bar"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/separator",
+                        "title":"Separator"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/sharing",
+                        "title":"Social Media Sharing"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/tabs",
+                        "title":"Tabs"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/teaser",
+                        "title":"Teaser"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/text",
+                        "title":"Text"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/title",
+                        "title":"Title"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/form/container",
+                        "title":"Core Form Container"
+                      }
+                    ]
+                  },
+                  ":items":{
+                    "navigation":{
+                      "id":"navigation-5ba92bc980",
+                      "items":[
+                        {
+                          "id":"navigation-5ba92bc980-item-63c868f264",
+                          "path":"/content/aem-spa-react/us/en",
+                          "children":[
+                            {
+                              "id":"navigation-5ba92bc980-item-e15aa12207",
+                              "path":"/content/aem-spa-react/us/en/home",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "lastModified":1538639429650,
+                              "url":"/content/aem-spa-react/us/en/home.html",
+                              "title":"AEM SPA React Home Page",
+                              "dataLayer":{
+                                "navigation-5ba92bc980-item-e15aa12207":{
+                                  "@type":"aem-spa-react/components/navigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"AEM SPA React Home Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/home.html"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/page"
+                            },
+                            {
+                              "id":"navigation-5ba92bc980-item-5b1b1966d2",
+                              "path":"/content/aem-spa-react/us/en/products",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "url":"/content/aem-spa-react/us/en/products.html",
+                              "title":"Catalog Page",
+                              "dataLayer":{
+                                "navigation-5ba92bc980-item-5b1b1966d2":{
+                                  "@type":"aem-spa-react/components/navigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"Catalog Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/products.html"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/commerce/catalogpage"
+                            }
+                          ],
+                          "level":0,
+                          "active":true,
+                          "current":false,
+                          "url":"/content/aem-spa-react/us/en.html",
+                          "title":"AEM SPA React",
+                          "dataLayer":{
+                            "navigation-5ba92bc980-item-63c868f264":{
+                              "@type":"aem-spa-react/components/navigation/item",
+                              "repo:modifyDate":"2023-05-07T04:15:10Z",
+                              "dc:title":"AEM SPA React",
+                              "xdm:linkURL":"/content/aem-spa-react/us/en.html"
+                            }
+                          },
+                          ":type":"aem-spa-react/components/spa"
+                        }
+                      ],
+                      ":type":"aem-spa-react/components/navigation",
+                      "dataLayer":{
+                        "navigation-5ba92bc980":{
+                          "@type":"aem-spa-react/components/navigation"
+                        }
+                      }
+                    },
+                    "languagenavigation":{
+                      "id":"languagenavigation-2bcd696ac6",
+                      "items":[
+                        {
+                          "id":"languagenavigation-2bcd696ac6-item-a58592f7bb",
+                          "path":"/content/aem-spa-react/us/en/search",
+                          "children":[
+                            {
+                              "id":"languagenavigation-2bcd696ac6-item-e15aa12207",
+                              "path":"/content/aem-spa-react/us/en/home",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "title":"AEM SPA React Home Page",
+                              "locale":"en",
+                              "country":"",
+                              "language":"en",
+                              "lastModified":1538639429650,
+                              "url":"/content/aem-spa-react/us/en/home.html",
+                              "dataLayer":{
+                                "languagenavigation-2bcd696ac6-item-e15aa12207":{
+                                  "@type":"aem-spa-react/components/languagenavigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"AEM SPA React Home Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/home.html",
+                                  "xdm:language":"en"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/page"
+                            },
+                            {
+                              "id":"languagenavigation-2bcd696ac6-item-5b1b1966d2",
+                              "path":"/content/aem-spa-react/us/en/products",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "title":"Catalog Page",
+                              "locale":"en",
+                              "country":"",
+                              "language":"en",
+                              "url":"/content/aem-spa-react/us/en/products.html",
+                              "dataLayer":{
+                                "languagenavigation-2bcd696ac6-item-5b1b1966d2":{
+                                  "@type":"aem-spa-react/components/languagenavigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"Catalog Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/products.html",
+                                  "xdm:language":"en"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/commerce/catalogpage"
+                            }
+                          ],
+                          "level":0,
+                          "active":true,
+                          "current":true,
+                          "title":"en",
+                          "locale":"en",
+                          "country":"",
+                          "language":"en",
+                          "url":"/content/aem-spa-react/us/en/search.html",
+                          "dataLayer":{
+                            "languagenavigation-2bcd696ac6-item-a58592f7bb":{
+                              "@type":"aem-spa-react/components/languagenavigation/item",
+                              "repo:modifyDate":"2023-05-07T04:15:10Z",
+                              "dc:title":"en",
+                              "xdm:linkURL":"/content/aem-spa-react/us/en/search.html",
+                              "xdm:language":"en"
+                            }
+                          },
+                          ":type":"aem-spa-react/components/page"
+                        }
+                      ],
+                      ":type":"aem-spa-react/components/languagenavigation",
+                      "dataLayer":{
+                        "languagenavigation-2bcd696ac6":{
+                          "@type":"aem-spa-react/components/languagenavigation"
+                        }
+                      }
+                    },
+                    "search":{
+                      "id":"search-f7902a57c8",
+                      "relativePath":"/jcr:content/root/search",
+                      "resultsSize":10,
+                      "searchTermMinimumLength":3,
+                      "searchRootPagePath":"/content/aem-spa-react/us",
+                      ":type":"aem-spa-react/components/search",
+                      "dataLayer":{
+                        "search-f7902a57c8":{
+                          "@type":"aem-spa-react/components/search"
+                        }
+                      }
+                    },
+                    "logo":{
+                      ":type":"nt:folder"
+                    }
+                  },
+                  ":itemsOrder":[
+                    "navigation",
+                    "languagenavigation",
+                    "search",
+                    "logo"
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              "classNames":"aem-xf",
+              ":itemsOrder":[
+                "root"
+              ],
+              ":type":"aem-spa-react/components/experiencefragment"
+            },
+            "container":{
+              "columnCount":12,
+              "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+              "columnClassNames":{
+                "container":"aem-GridColumn aem-GridColumn--default--12",
+                "breadcrumb":"aem-GridColumn aem-GridColumn--default--12"
+              },
+              "allowedComponents":{
+                "applicable":false,
+                "components":[
+
+                ]
+              },
+              ":items":{
+                "breadcrumb":{
+                  ":type":"aem-spa-react/components/commerce/breadcrumb",
+                  "structureDepth":"2",
+                  "startLevel":"3"
+                },
+                "container":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/accordion",
+                        "title":"Accordion"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/breadcrumb",
+                        "title":"Breadcrumb"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/button",
+                        "title":"Button"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/carousel",
+                        "title":"Carousel"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/container",
+                        "title":"Container"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/contentfragment",
+                        "title":"Content Fragment"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/contentfragmentlist",
+                        "title":"Content Fragment List"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/download",
+                        "title":"Download"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/embed",
+                        "title":"Embed"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/experiencefragment",
+                        "title":"Experience Fragment"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/helloworld",
+                        "title":"Hello World Component"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/image",
+                        "title":"Image"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/list",
+                        "title":"List"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/pdfviewer",
+                        "title":"PDF Viewer"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/progressbar",
+                        "title":"Progress Bar"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/separator",
+                        "title":"Separator"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/sharing",
+                        "title":"Social Media Sharing"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/tabs",
+                        "title":"Tabs"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/teaser",
+                        "title":"Teaser"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/text",
+                        "title":"Text"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/title",
+                        "title":"Title"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/jcr:content/root/container/container/aem-spa-react/components/form/container",
+                        "title":"Core Form Container"
+                      }
+                    ]
+                  },
+                  ":items":{
+
+                  },
+                  ":itemsOrder":[
+
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              ":itemsOrder":[
+                "breadcrumb",
+                "container"
+              ],
+              ":type":"aem-spa-react/components/container"
+            },
+            "footer":{
+              "id":"experiencefragment-863b99dd50",
+              "configured":true,
+              "localizedFragmentVariationPath":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content",
+              "dataLayer":{
+                "experiencefragment-863b99dd50":{
+                  "@type":"aem-spa-react/components/experiencefragment",
+                  "repo:modifyDate":"2019-03-05T09:43:17Z"
+                }
+              },
+              ":items":{
+                "root":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+                    "text":"aem-GridColumn aem-GridColumn--default--12",
+                    "separator":"aem-GridColumn aem-GridColumn--default--12"
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/accordion",
+                        "title":"Accordion"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/breadcrumb",
+                        "title":"Breadcrumb"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/button",
+                        "title":"Button"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/carousel",
+                        "title":"Carousel"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/container",
+                        "title":"Container"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/contentfragment",
+                        "title":"Content Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/contentfragmentlist",
+                        "title":"Content Fragment List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/download",
+                        "title":"Download"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/embed",
+                        "title":"Embed"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/experiencefragment",
+                        "title":"Experience Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/helloworld",
+                        "title":"Hello World Component"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/image",
+                        "title":"Image"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/list",
+                        "title":"List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/pdfviewer",
+                        "title":"PDF Viewer"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/progressbar",
+                        "title":"Progress Bar"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/separator",
+                        "title":"Separator"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/sharing",
+                        "title":"Social Media Sharing"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/tabs",
+                        "title":"Tabs"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/teaser",
+                        "title":"Teaser"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/text",
+                        "title":"Text"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/title",
+                        "title":"Title"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/form/container",
+                        "title":"Core Form Container"
+                      }
+                    ]
+                  },
+                  ":items":{
+                    "separator":{
+                      ":type":"aem-spa-react/components/separator"
+                    },
+                    "text":{
+                      "id":"text-6d118f6a4f",
+                      "text":"\u003Cp\u003ECopyright 2023, AEM SPA React.&nbsp;All rights reserved.\u003C/p\u003E\r\n\u003Cp\u003E345 Park Avenue,&nbsp;San Jose, CA 95110-2704, USA\u003C/p\u003E\r\n",
+                      "richText":true,
+                      ":type":"aem-spa-react/components/text",
+                      "dataLayer":{
+                        "text-6d118f6a4f":{
+                          "@type":"aem-spa-react/components/text",
+                          "xdm:text":"\u003Cp\u003ECopyright 2023, AEM SPA React.&nbsp;All rights reserved.\u003C/p\u003E\r\n\u003Cp\u003E345 Park Avenue,&nbsp;San Jose, CA 95110-2704, USA\u003C/p\u003E\r\n"
+                        }
+                      }
+                    }
+                  },
+                  ":itemsOrder":[
+                    "separator",
+                    "text"
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              "classNames":"aem-xf",
+              ":itemsOrder":[
+                "root"
+              ],
+              ":type":"aem-spa-react/components/experiencefragment"
+            }
+          },
+          ":itemsOrder":[
+            "experiencefragment-header",
+            "container",
+            "footer"
+          ],
+          ":type":"aem-spa-react/components/container"
+        }
+      },
+      ":itemsOrder":[
+        "root"
+      ],
+      ":type":"aem-spa-react/components/commerce/catalogpage",
+      ":hierarchyType":"page"
+    },
+    "/content/aem-spa-react/us/en/products/category-page":{
+      "language":"en",
+      "designPath":"/libs/settings/wcm/designs/default",
+      "title":"Category page",
+      "cssClassNames":"spa page basicpage",
+      "brandSlug":"",
+      "templateName":"category-page",
+      "componentsResourceTypes":[
+        "aem-spa-react/components/search",
+        "aem-spa-react/components/commerce/breadcrumb",
+        "aem-spa-react/components/commerce/productlist",
+        "aem-spa-react/components/page",
+        "aem-spa-react/components/experiencefragment",
+        "aem-spa-react/components/navigation",
+        "aem-spa-react/components/container",
+        "aem-spa-react/components/languagenavigation",
+        "nt:unstructured",
+        "nt:file",
+        "nt:folder",
+        "aem-spa-react/components/xfpage",
+        "aem-spa-react/components/text",
+        "nt:resource",
+        "aem-spa-react/components/separator"
+      ],
+      ":path":"/content/aem-spa-react/us/en/products/category-page",
+      ":items":{
+        "root":{
+          "columnCount":12,
+          "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+          "columnClassNames":{
+            "container":"aem-GridColumn aem-GridColumn--default--12",
+            "footer":"aem-GridColumn aem-GridColumn--default--12",
+            "experiencefragment-header":"aem-GridColumn aem-GridColumn--default--12"
+          },
+          "allowedComponents":{
+            "applicable":false,
+            "components":[
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/accordion",
+                "title":"Accordion"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/breadcrumb",
+                "title":"Breadcrumb"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/button",
+                "title":"Button"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/carousel",
+                "title":"Carousel"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/container",
+                "title":"Container"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/contentfragment",
+                "title":"Content Fragment"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/contentfragmentlist",
+                "title":"Content Fragment List"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/download",
+                "title":"Download"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/embed",
+                "title":"Embed"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/experiencefragment",
+                "title":"Experience Fragment"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/helloworld",
+                "title":"Hello World Component"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/image",
+                "title":"Image"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/list",
+                "title":"List"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/pdfviewer",
+                "title":"PDF Viewer"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/progressbar",
+                "title":"Progress Bar"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/separator",
+                "title":"Separator"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/sharing",
+                "title":"Social Media Sharing"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/tabs",
+                "title":"Tabs"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/teaser",
+                "title":"Teaser"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/text",
+                "title":"Text"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/title",
+                "title":"Title"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/form/container",
+                "title":"Core Form Container"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/commerce/breadcrumb",
+                "title":"Commerce Breadcrumb"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/languagenavigation",
+                "title":"Language Navigation"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/navigation",
+                "title":"Navigation"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/category-page/structure/jcr:content/root/aem-spa-react/components/search",
+                "title":"Quick Search"
+              }
+            ]
+          },
+          ":items":{
+            "experiencefragment-header":{
+              "id":"experiencefragment-d9998d23b7",
+              "configured":true,
+              "localizedFragmentVariationPath":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content",
+              "dataLayer":{
+                "experiencefragment-d9998d23b7":{
+                  "@type":"aem-spa-react/components/experiencefragment"
+                }
+              },
+              ":items":{
+                "root":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+                    "navigation":"aem-GridColumn aem-GridColumn--default--12",
+                    "search":"aem-GridColumn aem-GridColumn--default--12",
+                    "languagenavigation":"aem-GridColumn aem-GridColumn--default--12",
+                    "logo":"aem-GridColumn aem-GridColumn--default--12"
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/accordion",
+                        "title":"Accordion"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/breadcrumb",
+                        "title":"Breadcrumb"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/button",
+                        "title":"Button"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/carousel",
+                        "title":"Carousel"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/container",
+                        "title":"Container"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/contentfragment",
+                        "title":"Content Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/contentfragmentlist",
+                        "title":"Content Fragment List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/download",
+                        "title":"Download"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/embed",
+                        "title":"Embed"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/experiencefragment",
+                        "title":"Experience Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/helloworld",
+                        "title":"Hello World Component"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/image",
+                        "title":"Image"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/list",
+                        "title":"List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/pdfviewer",
+                        "title":"PDF Viewer"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/progressbar",
+                        "title":"Progress Bar"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/separator",
+                        "title":"Separator"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/sharing",
+                        "title":"Social Media Sharing"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/tabs",
+                        "title":"Tabs"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/teaser",
+                        "title":"Teaser"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/text",
+                        "title":"Text"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/title",
+                        "title":"Title"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/form/container",
+                        "title":"Core Form Container"
+                      }
+                    ]
+                  },
+                  ":items":{
+                    "navigation":{
+                      "id":"navigation-0a5e1e91fd",
+                      "items":[
+                        {
+                          "id":"navigation-0a5e1e91fd-item-63c868f264",
+                          "path":"/content/aem-spa-react/us/en",
+                          "children":[
+                            {
+                              "id":"navigation-0a5e1e91fd-item-e15aa12207",
+                              "path":"/content/aem-spa-react/us/en/home",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "lastModified":1538639429650,
+                              "url":"/content/aem-spa-react/us/en/home.html",
+                              "title":"AEM SPA React Home Page",
+                              "dataLayer":{
+                                "navigation-0a5e1e91fd-item-e15aa12207":{
+                                  "@type":"aem-spa-react/components/navigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"AEM SPA React Home Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/home.html"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/page"
+                            },
+                            {
+                              "id":"navigation-0a5e1e91fd-item-5b1b1966d2",
+                              "path":"/content/aem-spa-react/us/en/products",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "url":"/content/aem-spa-react/us/en/products.html",
+                              "title":"Catalog Page",
+                              "dataLayer":{
+                                "navigation-0a5e1e91fd-item-5b1b1966d2":{
+                                  "@type":"aem-spa-react/components/navigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"Catalog Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/products.html"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/commerce/catalogpage"
+                            }
+                          ],
+                          "level":0,
+                          "active":true,
+                          "current":false,
+                          "url":"/content/aem-spa-react/us/en.html",
+                          "title":"AEM SPA React",
+                          "dataLayer":{
+                            "navigation-0a5e1e91fd-item-63c868f264":{
+                              "@type":"aem-spa-react/components/navigation/item",
+                              "repo:modifyDate":"2023-05-07T04:15:10Z",
+                              "dc:title":"AEM SPA React",
+                              "xdm:linkURL":"/content/aem-spa-react/us/en.html"
+                            }
+                          },
+                          ":type":"aem-spa-react/components/spa"
+                        }
+                      ],
+                      ":type":"aem-spa-react/components/navigation",
+                      "dataLayer":{
+                        "navigation-0a5e1e91fd":{
+                          "@type":"aem-spa-react/components/navigation"
+                        }
+                      }
+                    },
+                    "languagenavigation":{
+                      "id":"languagenavigation-820e02cb8f",
+                      "items":[
+                        {
+                          "id":"languagenavigation-820e02cb8f-item-a58592f7bb",
+                          "path":"/content/aem-spa-react/us/en/search",
+                          "children":[
+                            {
+                              "id":"languagenavigation-820e02cb8f-item-e15aa12207",
+                              "path":"/content/aem-spa-react/us/en/home",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "title":"AEM SPA React Home Page",
+                              "locale":"en",
+                              "country":"",
+                              "language":"en",
+                              "lastModified":1538639429650,
+                              "url":"/content/aem-spa-react/us/en/home.html",
+                              "dataLayer":{
+                                "languagenavigation-820e02cb8f-item-e15aa12207":{
+                                  "@type":"aem-spa-react/components/languagenavigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"AEM SPA React Home Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/home.html",
+                                  "xdm:language":"en"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/page"
+                            },
+                            {
+                              "id":"languagenavigation-820e02cb8f-item-5b1b1966d2",
+                              "path":"/content/aem-spa-react/us/en/products",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "title":"Catalog Page",
+                              "locale":"en",
+                              "country":"",
+                              "language":"en",
+                              "url":"/content/aem-spa-react/us/en/products.html",
+                              "dataLayer":{
+                                "languagenavigation-820e02cb8f-item-5b1b1966d2":{
+                                  "@type":"aem-spa-react/components/languagenavigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"Catalog Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/products.html",
+                                  "xdm:language":"en"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/commerce/catalogpage"
+                            }
+                          ],
+                          "level":0,
+                          "active":true,
+                          "current":true,
+                          "title":"en",
+                          "locale":"en",
+                          "country":"",
+                          "language":"en",
+                          "url":"/content/aem-spa-react/us/en/search.html",
+                          "dataLayer":{
+                            "languagenavigation-820e02cb8f-item-a58592f7bb":{
+                              "@type":"aem-spa-react/components/languagenavigation/item",
+                              "repo:modifyDate":"2023-05-07T04:15:10Z",
+                              "dc:title":"en",
+                              "xdm:linkURL":"/content/aem-spa-react/us/en/search.html",
+                              "xdm:language":"en"
+                            }
+                          },
+                          ":type":"aem-spa-react/components/page"
+                        }
+                      ],
+                      ":type":"aem-spa-react/components/languagenavigation",
+                      "dataLayer":{
+                        "languagenavigation-820e02cb8f":{
+                          "@type":"aem-spa-react/components/languagenavigation"
+                        }
+                      }
+                    },
+                    "search":{
+                      "id":"search-a3c5f6c173",
+                      "relativePath":"/jcr:content/root/search",
+                      "resultsSize":10,
+                      "searchTermMinimumLength":3,
+                      "searchRootPagePath":"/content/aem-spa-react/us",
+                      ":type":"aem-spa-react/components/search",
+                      "dataLayer":{
+                        "search-a3c5f6c173":{
+                          "@type":"aem-spa-react/components/search"
+                        }
+                      }
+                    },
+                    "logo":{
+                      ":type":"nt:folder"
+                    }
+                  },
+                  ":itemsOrder":[
+                    "navigation",
+                    "languagenavigation",
+                    "search",
+                    "logo"
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              "classNames":"aem-xf",
+              ":itemsOrder":[
+                "root"
+              ],
+              ":type":"aem-spa-react/components/experiencefragment"
+            },
+            "container":{
+              "columnCount":12,
+              "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+              "columnClassNames":{
+                "container":"aem-GridColumn aem-GridColumn--default--12",
+                "breadcrumb":"aem-GridColumn aem-GridColumn--default--12"
+              },
+              "allowedComponents":{
+                "applicable":false,
+                "components":[
+
+                ]
+              },
+              ":items":{
+                "breadcrumb":{
+                  ":type":"aem-spa-react/components/commerce/breadcrumb",
+                  "structureDepth":"2",
+                  "startLevel":"3"
+                },
+                "container":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+                    "productlist":"aem-GridColumn aem-GridColumn--default--12"
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/accordion",
+                        "title":"Accordion"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/breadcrumb",
+                        "title":"Breadcrumb"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/button",
+                        "title":"Button"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/carousel",
+                        "title":"Carousel"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/container",
+                        "title":"Container"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/contentfragment",
+                        "title":"Content Fragment"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/contentfragmentlist",
+                        "title":"Content Fragment List"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/download",
+                        "title":"Download"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/embed",
+                        "title":"Embed"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/experiencefragment",
+                        "title":"Experience Fragment"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/helloworld",
+                        "title":"Hello World Component"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/image",
+                        "title":"Image"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/list",
+                        "title":"List"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/pdfviewer",
+                        "title":"PDF Viewer"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/progressbar",
+                        "title":"Progress Bar"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/separator",
+                        "title":"Separator"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/sharing",
+                        "title":"Social Media Sharing"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/tabs",
+                        "title":"Tabs"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/teaser",
+                        "title":"Teaser"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/text",
+                        "title":"Text"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/title",
+                        "title":"Title"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/category-page/jcr:content/root/container/container/aem-spa-react/components/form/container",
+                        "title":"Core Form Container"
+                      }
+                    ]
+                  },
+                  ":items":{
+                    "productlist":{
+                      ":type":"aem-spa-react/components/commerce/productlist",
+                      "cq:styleIds":[
+                        "1570700958199"
+                      ]
+                    }
+                  },
+                  ":itemsOrder":[
+                    "productlist"
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              ":itemsOrder":[
+                "breadcrumb",
+                "container"
+              ],
+              ":type":"aem-spa-react/components/container"
+            },
+            "footer":{
+              "id":"experiencefragment-6c793ab4f6",
+              "configured":true,
+              "localizedFragmentVariationPath":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content",
+              "dataLayer":{
+                "experiencefragment-6c793ab4f6":{
+                  "@type":"aem-spa-react/components/experiencefragment",
+                  "repo:modifyDate":"2019-03-05T09:43:17Z"
+                }
+              },
+              ":items":{
+                "root":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+                    "text":"aem-GridColumn aem-GridColumn--default--12",
+                    "separator":"aem-GridColumn aem-GridColumn--default--12"
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/accordion",
+                        "title":"Accordion"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/breadcrumb",
+                        "title":"Breadcrumb"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/button",
+                        "title":"Button"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/carousel",
+                        "title":"Carousel"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/container",
+                        "title":"Container"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/contentfragment",
+                        "title":"Content Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/contentfragmentlist",
+                        "title":"Content Fragment List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/download",
+                        "title":"Download"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/embed",
+                        "title":"Embed"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/experiencefragment",
+                        "title":"Experience Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/helloworld",
+                        "title":"Hello World Component"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/image",
+                        "title":"Image"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/list",
+                        "title":"List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/pdfviewer",
+                        "title":"PDF Viewer"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/progressbar",
+                        "title":"Progress Bar"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/separator",
+                        "title":"Separator"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/sharing",
+                        "title":"Social Media Sharing"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/tabs",
+                        "title":"Tabs"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/teaser",
+                        "title":"Teaser"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/text",
+                        "title":"Text"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/title",
+                        "title":"Title"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/form/container",
+                        "title":"Core Form Container"
+                      }
+                    ]
+                  },
+                  ":items":{
+                    "separator":{
+                      ":type":"aem-spa-react/components/separator"
+                    },
+                    "text":{
+                      "id":"text-817e8b2a98",
+                      "text":"\u003Cp\u003ECopyright 2023, AEM SPA React.&nbsp;All rights reserved.\u003C/p\u003E\r\n\u003Cp\u003E345 Park Avenue,&nbsp;San Jose, CA 95110-2704, USA\u003C/p\u003E\r\n",
+                      "richText":true,
+                      ":type":"aem-spa-react/components/text",
+                      "dataLayer":{
+                        "text-817e8b2a98":{
+                          "@type":"aem-spa-react/components/text",
+                          "xdm:text":"\u003Cp\u003ECopyright 2023, AEM SPA React.&nbsp;All rights reserved.\u003C/p\u003E\r\n\u003Cp\u003E345 Park Avenue,&nbsp;San Jose, CA 95110-2704, USA\u003C/p\u003E\r\n"
+                        }
+                      }
+                    }
+                  },
+                  ":itemsOrder":[
+                    "separator",
+                    "text"
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              "classNames":"aem-xf",
+              ":itemsOrder":[
+                "root"
+              ],
+              ":type":"aem-spa-react/components/experiencefragment"
+            }
+          },
+          ":itemsOrder":[
+            "experiencefragment-header",
+            "container",
+            "footer"
+          ],
+          ":type":"aem-spa-react/components/container"
+        }
+      },
+      ":itemsOrder":[
+        "root"
+      ],
+      ":type":"aem-spa-react/components/page",
+      ":hierarchyType":"page"
+    },
+    "/content/aem-spa-react/us/en/products/product-page":{
+      "language":"en",
+      "designPath":"/libs/settings/wcm/designs/default",
+      "title":"Product page",
+      "cssClassNames":"spa page basicpage",
+      "brandSlug":"",
+      "templateName":"product-page",
+      "componentsResourceTypes":[
+        "aem-spa-react/components/search",
+        "aem-spa-react/components/commerce/breadcrumb",
+        "aem-spa-react/components/commerce/product",
+        "aem-spa-react/components/page",
+        "aem-spa-react/components/experiencefragment",
+        "aem-spa-react/components/navigation",
+        "aem-spa-react/components/container",
+        "aem-spa-react/components/languagenavigation",
+        "nt:unstructured",
+        "nt:file",
+        "nt:folder",
+        "aem-spa-react/components/xfpage",
+        "aem-spa-react/components/text",
+        "nt:resource",
+        "aem-spa-react/components/separator"
+      ],
+      ":path":"/content/aem-spa-react/us/en/products/product-page",
+      ":items":{
+        "root":{
+          "columnCount":12,
+          "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+          "columnClassNames":{
+            "container":"aem-GridColumn aem-GridColumn--default--12",
+            "footer":"aem-GridColumn aem-GridColumn--default--12",
+            "experiencefragment-header":"aem-GridColumn aem-GridColumn--default--12"
+          },
+          "allowedComponents":{
+            "applicable":false,
+            "components":[
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/accordion",
+                "title":"Accordion"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/breadcrumb",
+                "title":"Breadcrumb"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/button",
+                "title":"Button"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/carousel",
+                "title":"Carousel"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/container",
+                "title":"Container"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/contentfragment",
+                "title":"Content Fragment"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/contentfragmentlist",
+                "title":"Content Fragment List"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/download",
+                "title":"Download"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/embed",
+                "title":"Embed"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/experiencefragment",
+                "title":"Experience Fragment"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/helloworld",
+                "title":"Hello World Component"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/image",
+                "title":"Image"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/list",
+                "title":"List"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/pdfviewer",
+                "title":"PDF Viewer"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/progressbar",
+                "title":"Progress Bar"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/separator",
+                "title":"Separator"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/sharing",
+                "title":"Social Media Sharing"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/tabs",
+                "title":"Tabs"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/teaser",
+                "title":"Teaser"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/text",
+                "title":"Text"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/title",
+                "title":"Title"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/form/container",
+                "title":"Core Form Container"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/commerce/breadcrumb",
+                "title":"Commerce Breadcrumb"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/languagenavigation",
+                "title":"Language Navigation"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/navigation",
+                "title":"Navigation"
+              },
+              {
+                "path":"/conf/aem-spa-react/settings/wcm/templates/product-page/structure/jcr:content/root/aem-spa-react/components/search",
+                "title":"Quick Search"
+              }
+            ]
+          },
+          ":items":{
+            "experiencefragment-header":{
+              "id":"experiencefragment-205533b295",
+              "configured":true,
+              "localizedFragmentVariationPath":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content",
+              "dataLayer":{
+                "experiencefragment-205533b295":{
+                  "@type":"aem-spa-react/components/experiencefragment"
+                }
+              },
+              ":items":{
+                "root":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+                    "navigation":"aem-GridColumn aem-GridColumn--default--12",
+                    "search":"aem-GridColumn aem-GridColumn--default--12",
+                    "languagenavigation":"aem-GridColumn aem-GridColumn--default--12",
+                    "logo":"aem-GridColumn aem-GridColumn--default--12"
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/accordion",
+                        "title":"Accordion"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/breadcrumb",
+                        "title":"Breadcrumb"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/button",
+                        "title":"Button"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/carousel",
+                        "title":"Carousel"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/container",
+                        "title":"Container"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/contentfragment",
+                        "title":"Content Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/contentfragmentlist",
+                        "title":"Content Fragment List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/download",
+                        "title":"Download"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/embed",
+                        "title":"Embed"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/experiencefragment",
+                        "title":"Experience Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/helloworld",
+                        "title":"Hello World Component"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/image",
+                        "title":"Image"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/list",
+                        "title":"List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/pdfviewer",
+                        "title":"PDF Viewer"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/progressbar",
+                        "title":"Progress Bar"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/separator",
+                        "title":"Separator"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/sharing",
+                        "title":"Social Media Sharing"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/tabs",
+                        "title":"Tabs"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/teaser",
+                        "title":"Teaser"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/text",
+                        "title":"Text"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/title",
+                        "title":"Title"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/header/master/jcr:content/root/aem-spa-react/components/form/container",
+                        "title":"Core Form Container"
+                      }
+                    ]
+                  },
+                  ":items":{
+                    "navigation":{
+                      "id":"navigation-24929f2ce9",
+                      "items":[
+                        {
+                          "id":"navigation-24929f2ce9-item-63c868f264",
+                          "path":"/content/aem-spa-react/us/en",
+                          "children":[
+                            {
+                              "id":"navigation-24929f2ce9-item-e15aa12207",
+                              "path":"/content/aem-spa-react/us/en/home",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "lastModified":1538639429650,
+                              "url":"/content/aem-spa-react/us/en/home.html",
+                              "title":"AEM SPA React Home Page",
+                              "dataLayer":{
+                                "navigation-24929f2ce9-item-e15aa12207":{
+                                  "@type":"aem-spa-react/components/navigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"AEM SPA React Home Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/home.html"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/page"
+                            },
+                            {
+                              "id":"navigation-24929f2ce9-item-5b1b1966d2",
+                              "path":"/content/aem-spa-react/us/en/products",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "url":"/content/aem-spa-react/us/en/products.html",
+                              "title":"Catalog Page",
+                              "dataLayer":{
+                                "navigation-24929f2ce9-item-5b1b1966d2":{
+                                  "@type":"aem-spa-react/components/navigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"Catalog Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/products.html"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/commerce/catalogpage"
+                            }
+                          ],
+                          "level":0,
+                          "active":true,
+                          "current":false,
+                          "url":"/content/aem-spa-react/us/en.html",
+                          "title":"AEM SPA React",
+                          "dataLayer":{
+                            "navigation-24929f2ce9-item-63c868f264":{
+                              "@type":"aem-spa-react/components/navigation/item",
+                              "repo:modifyDate":"2023-05-07T04:15:10Z",
+                              "dc:title":"AEM SPA React",
+                              "xdm:linkURL":"/content/aem-spa-react/us/en.html"
+                            }
+                          },
+                          ":type":"aem-spa-react/components/spa"
+                        }
+                      ],
+                      ":type":"aem-spa-react/components/navigation",
+                      "dataLayer":{
+                        "navigation-24929f2ce9":{
+                          "@type":"aem-spa-react/components/navigation"
+                        }
+                      }
+                    },
+                    "languagenavigation":{
+                      "id":"languagenavigation-93875b47dc",
+                      "items":[
+                        {
+                          "id":"languagenavigation-93875b47dc-item-a58592f7bb",
+                          "path":"/content/aem-spa-react/us/en/search",
+                          "children":[
+                            {
+                              "id":"languagenavigation-93875b47dc-item-e15aa12207",
+                              "path":"/content/aem-spa-react/us/en/home",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "title":"AEM SPA React Home Page",
+                              "locale":"en",
+                              "country":"",
+                              "language":"en",
+                              "lastModified":1538639429650,
+                              "url":"/content/aem-spa-react/us/en/home.html",
+                              "dataLayer":{
+                                "languagenavigation-93875b47dc-item-e15aa12207":{
+                                  "@type":"aem-spa-react/components/languagenavigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"AEM SPA React Home Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/home.html",
+                                  "xdm:language":"en"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/page"
+                            },
+                            {
+                              "id":"languagenavigation-93875b47dc-item-5b1b1966d2",
+                              "path":"/content/aem-spa-react/us/en/products",
+                              "children":[
+
+                              ],
+                              "level":1,
+                              "active":false,
+                              "current":false,
+                              "title":"Catalog Page",
+                              "locale":"en",
+                              "country":"",
+                              "language":"en",
+                              "url":"/content/aem-spa-react/us/en/products.html",
+                              "dataLayer":{
+                                "languagenavigation-93875b47dc-item-5b1b1966d2":{
+                                  "@type":"aem-spa-react/components/languagenavigation/item",
+                                  "repo:modifyDate":"2023-05-07T04:15:10Z",
+                                  "dc:title":"Catalog Page",
+                                  "xdm:linkURL":"/content/aem-spa-react/us/en/products.html",
+                                  "xdm:language":"en"
+                                }
+                              },
+                              ":type":"aem-spa-react/components/commerce/catalogpage"
+                            }
+                          ],
+                          "level":0,
+                          "active":true,
+                          "current":true,
+                          "title":"en",
+                          "locale":"en",
+                          "country":"",
+                          "language":"en",
+                          "url":"/content/aem-spa-react/us/en/search.html",
+                          "dataLayer":{
+                            "languagenavigation-93875b47dc-item-a58592f7bb":{
+                              "@type":"aem-spa-react/components/languagenavigation/item",
+                              "repo:modifyDate":"2023-05-07T04:15:10Z",
+                              "dc:title":"en",
+                              "xdm:linkURL":"/content/aem-spa-react/us/en/search.html",
+                              "xdm:language":"en"
+                            }
+                          },
+                          ":type":"aem-spa-react/components/page"
+                        }
+                      ],
+                      ":type":"aem-spa-react/components/languagenavigation",
+                      "dataLayer":{
+                        "languagenavigation-93875b47dc":{
+                          "@type":"aem-spa-react/components/languagenavigation"
+                        }
+                      }
+                    },
+                    "search":{
+                      "id":"search-79f5df13c4",
+                      "relativePath":"/jcr:content/root/search",
+                      "resultsSize":10,
+                      "searchTermMinimumLength":3,
+                      "searchRootPagePath":"/content/aem-spa-react/us",
+                      ":type":"aem-spa-react/components/search",
+                      "dataLayer":{
+                        "search-79f5df13c4":{
+                          "@type":"aem-spa-react/components/search"
+                        }
+                      }
+                    },
+                    "logo":{
+                      ":type":"nt:folder"
+                    }
+                  },
+                  ":itemsOrder":[
+                    "navigation",
+                    "languagenavigation",
+                    "search",
+                    "logo"
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              "classNames":"aem-xf",
+              ":itemsOrder":[
+                "root"
+              ],
+              ":type":"aem-spa-react/components/experiencefragment"
+            },
+            "container":{
+              "columnCount":12,
+              "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+              "columnClassNames":{
+                "container":"aem-GridColumn aem-GridColumn--default--12",
+                "breadcrumb":"aem-GridColumn aem-GridColumn--default--12"
+              },
+              "allowedComponents":{
+                "applicable":false,
+                "components":[
+
+                ]
+              },
+              ":items":{
+                "breadcrumb":{
+                  ":type":"aem-spa-react/components/commerce/breadcrumb",
+                  "structureDepth":"2",
+                  "startLevel":"3"
+                },
+                "container":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+                    "product":"aem-GridColumn aem-GridColumn--default--12"
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/accordion",
+                        "title":"Accordion"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/breadcrumb",
+                        "title":"Breadcrumb"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/button",
+                        "title":"Button"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/carousel",
+                        "title":"Carousel"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/container",
+                        "title":"Container"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/contentfragment",
+                        "title":"Content Fragment"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/contentfragmentlist",
+                        "title":"Content Fragment List"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/download",
+                        "title":"Download"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/embed",
+                        "title":"Embed"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/experiencefragment",
+                        "title":"Experience Fragment"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/helloworld",
+                        "title":"Hello World Component"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/image",
+                        "title":"Image"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/list",
+                        "title":"List"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/pdfviewer",
+                        "title":"PDF Viewer"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/progressbar",
+                        "title":"Progress Bar"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/separator",
+                        "title":"Separator"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/sharing",
+                        "title":"Social Media Sharing"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/tabs",
+                        "title":"Tabs"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/teaser",
+                        "title":"Teaser"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/text",
+                        "title":"Text"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/title",
+                        "title":"Title"
+                      },
+                      {
+                        "path":"/content/aem-spa-react/us/en/products/product-page/jcr:content/root/container/container/aem-spa-react/components/form/container",
+                        "title":"Core Form Container"
+                      }
+                    ]
+                  },
+                  ":items":{
+                    "product":{
+                      ":type":"aem-spa-react/components/commerce/product"
+                    }
+                  },
+                  ":itemsOrder":[
+                    "product"
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              ":itemsOrder":[
+                "breadcrumb",
+                "container"
+              ],
+              ":type":"aem-spa-react/components/container"
+            },
+            "footer":{
+              "id":"experiencefragment-7754ff3491",
+              "configured":true,
+              "localizedFragmentVariationPath":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content",
+              "dataLayer":{
+                "experiencefragment-7754ff3491":{
+                  "@type":"aem-spa-react/components/experiencefragment",
+                  "repo:modifyDate":"2019-03-05T09:43:17Z"
+                }
+              },
+              ":items":{
+                "root":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+                    "text":"aem-GridColumn aem-GridColumn--default--12",
+                    "separator":"aem-GridColumn aem-GridColumn--default--12"
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/accordion",
+                        "title":"Accordion"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/breadcrumb",
+                        "title":"Breadcrumb"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/button",
+                        "title":"Button"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/carousel",
+                        "title":"Carousel"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/container",
+                        "title":"Container"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/contentfragment",
+                        "title":"Content Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/contentfragmentlist",
+                        "title":"Content Fragment List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/download",
+                        "title":"Download"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/embed",
+                        "title":"Embed"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/experiencefragment",
+                        "title":"Experience Fragment"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/helloworld",
+                        "title":"Hello World Component"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/image",
+                        "title":"Image"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/list",
+                        "title":"List"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/pdfviewer",
+                        "title":"PDF Viewer"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/progressbar",
+                        "title":"Progress Bar"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/separator",
+                        "title":"Separator"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/sharing",
+                        "title":"Social Media Sharing"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/tabs",
+                        "title":"Tabs"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/teaser",
+                        "title":"Teaser"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/text",
+                        "title":"Text"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/title",
+                        "title":"Title"
+                      },
+                      {
+                        "path":"/content/experience-fragments/aem-spa-react/us/en/site/footer/master/jcr:content/root/aem-spa-react/components/form/container",
+                        "title":"Core Form Container"
+                      }
+                    ]
+                  },
+                  ":items":{
+                    "separator":{
+                      ":type":"aem-spa-react/components/separator"
+                    },
+                    "text":{
+                      "id":"text-e8f58acc7e",
+                      "text":"\u003Cp\u003ECopyright 2023, AEM SPA React.&nbsp;All rights reserved.\u003C/p\u003E\r\n\u003Cp\u003E345 Park Avenue,&nbsp;San Jose, CA 95110-2704, USA\u003C/p\u003E\r\n",
+                      "richText":true,
+                      ":type":"aem-spa-react/components/text",
+                      "dataLayer":{
+                        "text-e8f58acc7e":{
+                          "@type":"aem-spa-react/components/text",
+                          "xdm:text":"\u003Cp\u003ECopyright 2023, AEM SPA React.&nbsp;All rights reserved.\u003C/p\u003E\r\n\u003Cp\u003E345 Park Avenue,&nbsp;San Jose, CA 95110-2704, USA\u003C/p\u003E\r\n"
+                        }
+                      }
+                    }
+                  },
+                  ":itemsOrder":[
+                    "separator",
+                    "text"
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              "classNames":"aem-xf",
+              ":itemsOrder":[
+                "root"
+              ],
+              ":type":"aem-spa-react/components/experiencefragment"
+            }
+          },
+          ":itemsOrder":[
+            "experiencefragment-header",
+            "container",
+            "footer"
+          ],
+          ":type":"aem-spa-react/components/container"
+        }
+      },
+      ":itemsOrder":[
+        "root"
+      ],
+      ":type":"aem-spa-react/components/page",
+      ":hierarchyType":"page"
+    },
+    "/content/aem-spa-react/us/en/reset-password":{
+      "language":"en",
+      "designPath":"/libs/settings/wcm/designs/default",
+      "title":"Reset Password",
+      "cssClassNames":"spa page basicpage",
+      "brandSlug":"",
+      "templateName":"page-content",
+      "componentsResourceTypes":[
+        "aem-spa-react/components/page",
+        "aem-spa-react/components/container",
+        "aem-spa-react/components/commerce/resetpassword",
+        "aem-spa-react/components/title"
+      ],
+      ":path":"/content/aem-spa-react/us/en/reset-password",
+      ":items":{
+        "root":{
+          "columnCount":12,
+          "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+          "columnClassNames":{
+            "container":"aem-GridColumn aem-GridColumn--default--12"
+          },
+          "allowedComponents":{
+            "applicable":false,
+            "components":[
+
+            ]
+          },
+          ":items":{
+            "container":{
+              "columnCount":12,
+              "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+              "columnClassNames":{
+                "container":"aem-GridColumn aem-GridColumn--default--12",
+                "title":"aem-GridColumn aem-GridColumn--default--12"
+              },
+              "allowedComponents":{
+                "applicable":false,
+                "components":[
+
+                ]
+              },
+              ":items":{
+                "title":{
+                  "id":"title-e50968aa4a",
+                  "linkDisabled":false,
+                  "text":"Search Results",
+                  ":type":"aem-spa-react/components/title",
+                  "dataLayer":{
+                    "title-e50968aa4a":{
+                      "@type":"aem-spa-react/components/title",
+                      "dc:title":"Search Results"
+                    }
+                  }
+                },
+                "container":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+                    "resetpassword":"aem-GridColumn aem-GridColumn--default--12",
+                    "title":"aem-GridColumn aem-GridColumn--default--12"
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+
+                    ]
+                  },
+                  ":items":{
+                    "title":{
+                      "id":"title-9afb3412c2",
+                      "linkDisabled":false,
+                      "text":"Search Results",
+                      ":type":"aem-spa-react/components/title",
+                      "dataLayer":{
+                        "title-9afb3412c2":{
+                          "@type":"aem-spa-react/components/title",
+                          "dc:title":"Search Results"
+                        }
+                      }
+                    },
+                    "resetpassword":{
+                      ":type":"aem-spa-react/components/commerce/resetpassword"
+                    }
+                  },
+                  ":itemsOrder":[
+                    "title",
+                    "resetpassword"
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              ":itemsOrder":[
+                "title",
+                "container"
+              ],
+              ":type":"aem-spa-react/components/container"
+            }
+          },
+          ":itemsOrder":[
+            "container"
+          ],
+          ":type":"aem-spa-react/components/container"
+        }
+      },
+      ":itemsOrder":[
+        "root"
+      ],
+      ":type":"aem-spa-react/components/page",
+      ":hierarchyType":"page"
+    },
+    "/content/aem-spa-react/us/en/search":{
+      "language":"en",
+      "designPath":"/libs/settings/wcm/designs/default",
+      "title":"Search Results",
+      "cssClassNames":"spa page basicpage",
+      "brandSlug":"",
+      "templateName":"page-content",
+      "componentsResourceTypes":[
+        "aem-spa-react/components/commerce/searchresults",
+        "aem-spa-react/components/page",
+        "aem-spa-react/components/container"
+      ],
+      ":path":"/content/aem-spa-react/us/en/search",
+      ":items":{
+        "root":{
+          "columnCount":12,
+          "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+          "columnClassNames":{
+            "container":"aem-GridColumn aem-GridColumn--default--12"
+          },
+          "allowedComponents":{
+            "applicable":false,
+            "components":[
+
+            ]
+          },
+          ":items":{
+            "container":{
+              "columnCount":12,
+              "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+              "columnClassNames":{
+                "container":"aem-GridColumn aem-GridColumn--default--12"
+              },
+              "allowedComponents":{
+                "applicable":false,
+                "components":[
+
+                ]
+              },
+              ":items":{
+                "container":{
+                  "columnCount":12,
+                  "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnClassNames":{
+                    "searchresults":"aem-GridColumn aem-GridColumn--default--12"
+                  },
+                  "allowedComponents":{
+                    "applicable":false,
+                    "components":[
+
+                    ]
+                  },
+                  ":items":{
+                    "searchresults":{
+                      ":type":"aem-spa-react/components/commerce/searchresults"
+                    }
+                  },
+                  ":itemsOrder":[
+                    "searchresults"
+                  ],
+                  ":type":"aem-spa-react/components/container"
+                }
+              },
+              ":itemsOrder":[
+                "container"
+              ],
+              ":type":"aem-spa-react/components/container"
+            }
+          },
+          ":itemsOrder":[
+            "container"
+          ],
+          ":type":"aem-spa-react/components/container"
+        }
+      },
+      ":itemsOrder":[
+        "root"
+      ],
+      ":type":"aem-spa-react/components/page",
+      ":hierarchyType":"page"
+    }
+  },
+  ":hierarchyType":"page"
+}

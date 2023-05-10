@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.adobe.aem.guides.aemspa.react.core.handler.SlingEvent" activate="startScheduledJob">
+  <reference name="jobManager" interface="org.apache.sling.event.jobs.JobManager" field="jobManager"/>
+  <implementation class="com.adobe.aem.guides.aemspa.react.core.handler.SlingEvent"/>
+</scr:component>

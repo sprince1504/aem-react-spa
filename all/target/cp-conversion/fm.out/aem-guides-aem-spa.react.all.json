@@ -1,0 +1,78 @@
+{
+  "id":"com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.all:slingosgifeature:1.0.0-SNAPSHOT",
+  "bundles":[
+    {
+      "id":"com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.core:1.0.0-SNAPSHOT",
+      "start-order":"20",
+      "content-package-origins":"com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.all:1.0.0-SNAPSHOT"
+    },
+    {
+      "id":"com.adobe.aem:spa.project.core.core:1.3.10",
+      "start-order":"20",
+      "content-package-origins":"com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.all:1.0.0-SNAPSHOT"
+    }
+  ],
+  "configurations":  {
+    "com.adobe.cq.commerce.core.components.internal.services.UrlProviderImpl":    {
+      "productUrlTemplate":"{{page}}.{{url_key}}.html#{{variant_sku}}",
+      "productIdentifierLocation":"SELECTOR",
+      "productIdentifierType":"URL_KEY",
+      "categoryUrlTemplate":"{{page}}.{{id}}.html",
+      "categoryIdentifierLocation":"SELECTOR",
+      "categoryIdentifierType":"ID",
+      ":configurator:content-package-origins":"com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.all:1.0.0-SNAPSHOT|com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.ui.config:1.0.0-SNAPSHOT"
+    },
+    "com.adobe.cq.commerce.core.components.internal.servlets.SpecificPageFilterFactory~default":    {
+      "sling.filter.pattern":"/content/aem-spa-react/.*?/(category-page|product-page)",
+      ":configurator:content-package-origins":"com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.all:1.0.0-SNAPSHOT|com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.ui.config:1.0.0-SNAPSHOT"
+    },
+    "com.adobe.cq.commerce.graphql.client.impl.GraphqlClientImpl~default":    {
+      "httpMethod":"GET",
+      "connectionTimeout:Integer":5000,
+      "maxHttpConnections:Integer":20,
+      "url":"https://hostname.com/graphql",
+      "identifier":"default",
+      "requestPoolTimeout:Integer":2000,
+      "acceptSelfSignedCertificates":false,
+      "socketTimeout:Integer":5000,
+      ":configurator:content-package-origins":"com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.all:1.0.0-SNAPSHOT|com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.ui.config:1.0.0-SNAPSHOT"
+    },
+    "org.apache.sling.commons.log.LogManager.factory.config~aem-spa-react":    {
+      "org.apache.sling.commons.log.names":[
+        "com.adobe.aem.guides.aemspa.react"
+      ],
+      "org.apache.sling.commons.log.level":"INFO",
+      "org.apache.sling.commons.log.file":"logs/error.log",
+      "org.apache.sling.commons.log.additiv":"false",
+      ":configurator:content-package-origins":"com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.all:1.0.0-SNAPSHOT|com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.ui.config:1.0.0-SNAPSHOT"
+    }
+  },
+  "content-packages:ARTIFACTS|true":[
+    "com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.ui.apps:zip:cp2fm-converted:1.0.0-SNAPSHOT",
+    "com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.ui.config:zip:cp2fm-converted:1.0.0-SNAPSHOT",
+    "com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.ui.content:zip:cp2fm-converted:1.0.0-SNAPSHOT",
+    "com.adobe.aem:spa.project.core.ui.apps:zip:cp2fm-converted:1.3.10",
+    "com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.all:zip:cp2fm-converted:1.0.0-SNAPSHOT"
+  ],
+  "repoinit:TEXT|true":[
+    "create path (sling:OrderedFolder) /content/dam/aem-spa-react\r",
+    "create path (nt:unstructured) /content/dam/aem-spa-react/jcr:content\r",
+    "set properties on /content/dam/aem-spa-react/jcr:content",
+    "  set cq:conf{String} to /conf/aem-spa-react",
+    "  set jcr:title{String} to \"AEM SPA React\"",
+    "end"
+  ],
+  "api-regions:JSON|false":[
+    {
+      "name":"global",
+      "exports":[
+        "com.adobe.aem.guides.aemspa.react.core.filters",
+        "com.adobe.aem.guides.aemspa.react.core.listeners",
+        "com.adobe.aem.guides.aemspa.react.core.models",
+        "com.adobe.aem.guides.aemspa.react.core.schedulers",
+        "com.adobe.aem.guides.aemspa.react.core.servlets",
+        "com.adobe.aem.spa.project.core.models"
+      ]
+    }
+  ]
+}

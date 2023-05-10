@@ -1,0 +1,21 @@
+{
+  "id":"com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.all:slingosgifeature:publish:1.0.0-SNAPSHOT",
+  "configurations":  {
+    "com.adobe.cq.commerce.core.components.internal.services.UrlProviderImpl":    {
+      "productUrlTemplate":"{{page}}.{{url_key}}.html#{{variant_sku}}",
+      "productIdentifierLocation":"SELECTOR",
+      "productIdentifierType":"URL_KEY",
+      "categoryUrlTemplate":"{{page}}.{{id}}.html/{{url_path}}",
+      "categoryIdentifierLocation":"SELECTOR",
+      "categoryIdentifierType":"ID",
+      ":configurator:content-package-origins":"com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.all:1.0.0-SNAPSHOT|com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.ui.config:1.0.0-SNAPSHOT"
+    },
+    "org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl":    {
+      "resource.resolver.mapping":[
+        "/content/aem-spa-react/</",
+        "/:/"
+      ],
+      ":configurator:content-package-origins":"com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.all:1.0.0-SNAPSHOT|com.adobe.aem.guides.aemspa.react:aem-guides-aem-spa.react.ui.config:1.0.0-SNAPSHOT"
+    }
+  }
+}

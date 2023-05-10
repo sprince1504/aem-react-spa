@@ -1,0 +1,9 @@
+org\apache\sling\scripting\sightly\apps\aem__002d__spa__002d__react\components\xfpage\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\aem__002d__spa__002d__react\components\xfpage\customheaderlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\aem__002d__spa__002d__react\components\helloworld\helloworld__002e__html.class
+org\apache\sling\scripting\sightly\apps\aem__002d__spa__002d__react\clientlibs\clientlib__002d__react\resources\index__002e__html.class
+org\apache\sling\scripting\sightly\apps\aem__002d__spa__002d__react\components\page\customheaderlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\aem__002d__spa__002d__react\components\commerce\catalogpage\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\aem__002d__spa__002d__react\components\xfpage\body__002e__html.class
+org\apache\sling\scripting\sightly\apps\aem__002d__spa__002d__react\components\commerce\catalogpage\customheaderlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\aem__002d__spa__002d__react\components\page\customfooterlibs__002e__html.class
