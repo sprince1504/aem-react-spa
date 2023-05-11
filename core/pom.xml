@@ -145,5 +145,13 @@ Import-Package: javax.annotation;version=0.0.0,*
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
         </dependency>
+        <!--<dependency>
+            <groupId>com.graphql-java</groupId>
+            <artifactId>graphql-java</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.aem.headless</groupId>
+            <artifactId>aem-headless-client-java</artifactId>
+        </dependency>-->
     </dependencies>
 </project>
