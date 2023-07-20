@@ -43,7 +43,8 @@
                         </goals>
                         <configuration>
                             <bnd><![CDATA[
-Import-Package: javax.annotation;version=0.0.0,*
+Import-Package: !com.google.*,!org.checkerframework.*,!javax.annotation.*,!graphql.com.google.*,!org.antlr.*,!graphql.org.antlr.*,!sun.misc.*,*
+-includeresource: graphql-java-[0-9.]*.jar;lib:=true,java-dataloader-[0-9.]*.jar;lib:=true,reactive-streams-[0-9.]*.jar;lib:=true
                                 ]]></bnd>
                         </configuration>
                     </execution>
@@ -145,11 +146,19 @@ Import-Package: javax.annotation;version=0.0.0,*
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
         </dependency>
-        <!--<dependency>
+        <dependency>
             <groupId>com.graphql-java</groupId>
             <artifactId>graphql-java</artifactId>
         </dependency>
         <dependency>
+            <groupId>com.graphql-java</groupId>
+            <artifactId>java-dataloader</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.reactivestreams</groupId>
+            <artifactId>reactive-streams</artifactId>
+        </dependency>
+        <!--<dependency>
             <groupId>com.adobe.aem.headless</groupId>
             <artifactId>aem-headless-client-java</artifactId>
         </dependency>-->
