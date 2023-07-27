@@ -1,4 +1,4 @@
-package com.adobe.aem.guides.aemspa.react.core.models;
+package com.adobe.aem.guides.aemspa.react.core.models.spa;
 
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
